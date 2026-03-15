@@ -1,30 +1,37 @@
-# OK Zoomer Pointer
+# OK Zoomer V2.1 Stable
 
-OK Zoomer Pointer is a lightweight, high-performance screen magnification tool designed for presenters, educators, and power users. It provides a clean, professional "spotlight" zoom that follows your cursor, making it easy to highlight fine details on the fly.
+A high-performance screen magnifier for Windows, optimized for high-DPI displays (like the Galaxy Book 5 Pro) and multi-monitor setups.
 
-## The Full Package
-The OK_Zoomer_Pointer.exe file is entirely self-contained. 
-- No Installation Required: Just run the executable.
-- Offline by Design: This application does not reach out to the internet, does not download external assets, and does not collect any data. 
-- Zero Dependencies: All necessary logic and resources are baked into the single file. It uses local Windows system resources only.
+## 🚀 Key Features
+- **Physical Force Spotlight:** Direct WinAPI control for 100% monitor coverage across all screens.
+- **Dynamic Shapes:** Switch between **Circle**, **Square**, and **Rectangle** on the fly.
+- **Quick Colors:** Fast presets for White, Black, and Rainbow cycles.
+- **Transparent Border:** "Clear" mode for an unobtrusive zoom experience.
+- **Advanced Performance:** Customizable FPS slider (10-100 FPS) and optimized sub-region grabbing to eliminate lag and edge-stretching.
 
-## Controls
-- Hold Alt or Middle Mouse Button: Activate the magnifier circle.
-- Up / Down Arrow Keys: Adjust the Zoom Level (while magnifying).
-- Left / Right Arrow Keys: Adjust the Circle Size (while magnifying).
-- < / > (Comma/Period): Adjust Overlay Opacity (while magnifying).
+## 🎮 Controls (Hold Activation Key - Default: Alt)
+| Key | Action |
+|-----|--------|
+| **Arrows Up/Down** | Adjust Zoom Level |
+| **Arrows Left/Right** | Adjust Magnifier Width |
+| **0** | Cycle Pointer Styles (Normal, Hidden, Laser, Crosshair) |
+| **4** | Cycle Magnifier Shapes (Circle, Square, Rectangle) |
+| **8** | Toggle Spotlight Mode (Dim Screen) |
+| **1** | Set White Border (**Double-Tap for CLEAR**) |
+| **2** | Cycle Rainbow Colors |
+| **3** | Set Black Border |
+| **/** | Toggle Spotlight (Alt key) |
+| **, / .** | Adjust Magnifier Opacity |
 
-## How to Use
-1. Launch OK_Zoomer_Pointer.exe.
-2. Find the icon in your System Tray (bottom right near the clock).
-3. Right-click the tray icon to access Settings or Exit.
-4. Use the keyboard shortcuts above to customize your view in real-time.
+## 🛠 Advanced Options
+Right-click the tray icon and select **Settings** to access the Advanced Options menu:
+- **Refresh FPS:** Adjust smoothness vs CPU usage.
+- **Capture Modes:** Stealth (hidden from recording), Standard, or Trip (recursive).
 
-## Credits & Libraries
-This tool was built using high-quality open-source components:
-- Python: The core logic engine.
-- PyQt6: Powers the smooth, hardware-accelerated user interface and overlay.
-- Ctypes: Facilitates deep integration with the Windows API for high-performance screen interaction.
+## 📦 Installation
+1. Download `OK_Zoomer.exe`.
+2. Run the application.
+3. Look for the red/green dot in your System Tray.
 
 ---
-Created by RandoTechNerd
+Built by **RandoTechNerd**
