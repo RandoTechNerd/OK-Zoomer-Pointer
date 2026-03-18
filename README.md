@@ -1,6 +1,6 @@
 # OK Zoomer Boom Supreme V3.1
 
-Professional ISCN-compliant screen magnification tool with Stealth and Presentation modes.
+Semi-Professional screen magnification tool with Stealth and Presentation modes.
 
 ## 🚀 How to Run
 - Run `OK_Zoomer_Boom_Supreme_V3.1.exe` for the standalone app.
