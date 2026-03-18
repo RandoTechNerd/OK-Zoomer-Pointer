@@ -20,9 +20,3 @@ Professional ISCN-compliant screen magnification tool with Stealth and Presentat
   - `,` / `.`: Adjust Transparency
   - `Arrows`: Adjust Zoom level and Magnifier size
 
-## 📦 How to Upload to GitHub
-1. Create a new repository on [GitHub](https://github.com/new).
-2. Name it `ok-zoomer-boom-supreme`.
-3. Open the repository and click **"uploading an existing file"**.
-4. Drag and drop all files from this folder into the browser.
-5. Click **"Commit changes"**.
